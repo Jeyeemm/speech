@@ -1,0 +1,29 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the gallery container */
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center images vertically */
+  align-items: center; /* Center images horizontally */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Style each image container */
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style the images */
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
